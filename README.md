@@ -44,11 +44,7 @@ This is an ASP.NET Core Web API project named KYC360, designed to handle Know Yo
 
 ## API Endpoints
 
-### Retrieve all entities:
-
 ```http
-## API Endpoints
- Retrieve a single entity by ID:
 GET https://localhost:44304/api/Entity/{id}
 GET https://localhost:44304/api/Entity/Search?query={searchQuery}
 PUT https://localhost:44304/api/Entity/{id}
